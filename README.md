@@ -28,6 +28,13 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 <!--
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/E5Jg4Wm9b7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 --> 
+### Next Step
+- [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
+- [x] [YOLOv3 Object Detection in Pytorch](https://github.com/tooth2/YOLOv3-Pytorch)
+- [x] [YOLOv3 Object Detection C++](https://github.com/tooth2/YOLOv3-Object-Detection)
+- [x] [SSD(Single shot detection)](https://github.com/tooth2/SSD-Object-Detection)
+- [ ] Semantic Segmentation 
+
 ### trained model Download  
 * [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
 * [RFCN_ResNet101 v11.6.17](http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz)
