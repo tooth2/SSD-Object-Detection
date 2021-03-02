@@ -20,16 +20,7 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 ### Result
 | first 5 sec of driving data |first 5 sec detected result |
 |--|--|
-|HTML("""
-<video width="400"  controls>
-  <source src="{0}" type="video/mp4">
-</video>
-""".format('sample.mp4') | 
-HTML("""
-<video width="400" controls>
-  <source src="{0}" type="video/mp4">
-</video>
-""".format('result.mp4')|
+|<video controls><source src="sample.mp4" type="video/mp4"> </video> | HTML("""<video width="400" controls> <source src="{0}" type="video/mp4"></video>""".format('result.mp4')|
 
 ### trained model Download  
 * [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
