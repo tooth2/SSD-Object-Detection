@@ -17,10 +17,26 @@ The SSD architecture is a single convolutional network which learns to predict b
 ### SSD Visual
 NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 
+### Result
+| first 5 sec of driving data |first 5 sec detected result |
+|--|--|
+|HTML("""
+<video width="400"  controls>
+  <source src="{0}" type="video/mp4">
+</video>
+""".format('sample.mp4') | 
+HTML("""
+<video width="400" controls>
+  <source src="{0}" type="video/mp4">
+</video>
+""".format('result.mp4')|
+
 ### trained model Download  
 * [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
 * [RFCN_ResNet101 v11.6.17](http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz)
 * [Faster_RCNN_Inception_ResNet v11.6.17](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz)
+
+### Reference 
 * [Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 * [Deep Lab](https://github.com/tensorflow/models/tree/master/research/deeplab)
 * [CityScapes DataSet](https://www.cityscapes-dataset.com/)
