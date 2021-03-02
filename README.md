@@ -18,7 +18,7 @@ The SSD architecture is a single convolutional network which learns to predict b
 NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 
 ### Result
-| first 5 sec of driving data |first 5 sec detected result |
+| 10s of driving|10sec detected result |
 |--|--|
 |![Driving](sample.gif) | ![Result](detection.gif)|
 
