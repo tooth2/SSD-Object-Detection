@@ -16,3 +16,11 @@ Many previous works in object detection involve more than one training phase. Fo
 The SSD architecture is a single convolutional network which learns to predict bounding box locations and classify the locations in one pass. Put differently, SSD can be trained end to end while Faster-RCNN cannot. The SSD architecture consists of a base network followed by several convolutional layers:
 ### SSD Visual
 NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
+
+### trained model Download  
+* [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
+* [RFCN_ResNet101 v11.6.17](http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz)
+* [Faster_RCNN_Inception_ResNet v11.6.17](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz)
+* [Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+* [Deep Lab](https://github.com/tensorflow/models/tree/master/research/deeplab)
+* [CityScapes DataSet](https://www.cityscapes-dataset.com/)
