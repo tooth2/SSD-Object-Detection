@@ -19,9 +19,12 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 
 ### Result
 | first 5 sec of driving data |first 5 sec detected result |
-|--|--|.  https://youtu.be/TDsYpbYG9Nw
-|<video controls><source src="sample.mp4" type="video/mp4"> </video> | [![Result](http://img.youtube.com/vi/TDsYpbYG9Nw/0.jpg)](https://www.youtube.com/watch?v=TDsYpbYG9Nw)|
+|--|--|
+|[![Driving](http://img.youtube.com/vi/8R0VVHv5Avo/0.jpg)](http://www.youtube.com/watch?v=8R0VVHv5Avo "Driving") | [![Result](http://img.youtube.com/vi/TDsYpbYG9Nw/0.jpg)](https://www.youtube.com/watch?v=TDsYpbYG9Nw "Detection")|
 
+<!--
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/E5Jg4Wm9b7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+--> 
 ### trained model Download  
 * [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
 * [RFCN_ResNet101 v11.6.17](http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz)
