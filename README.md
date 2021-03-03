@@ -42,6 +42,8 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 * [Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 * [Deep Lab](https://github.com/tensorflow/models/tree/master/research/deeplab)
 * [CityScapes DataSet](https://www.cityscapes-dataset.com/)
+* [MobileNet v2](https://arxiv.org/abs/1801.04381)
+* [MobileNet v3](https://arxiv.org/abs/1905.02244)
 
 ### Next Step
 - [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
