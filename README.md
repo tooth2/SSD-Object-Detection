@@ -45,7 +45,7 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 * [MobileNet v2](https://arxiv.org/abs/1801.04381)
 * [MobileNet v3](https://arxiv.org/abs/1905.02244)
 
-### Next Step
+### Related Work
 - [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
 - [x] [YOLOv3 Object Detection in Pytorch](https://github.com/tooth2/YOLOv3-Pytorch)
 - [x] [YOLOv3 Object Detection C++](https://github.com/tooth2/YOLOv3-Object-Detection)
