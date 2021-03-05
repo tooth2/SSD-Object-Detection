@@ -31,8 +31,8 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 ### Multi-Objects Detection Result
 | Traffic Light only | MultiObjects(car, person, traffic light,all )|
 |--|--|
-|![result-tf](result-tf.gif)| |
-|[![TrafficLight](http://img.youtube.com/vi/lW7Dx4G66b4/0.jpg)](https://www.youtube.com/watch?v=lW7Dx4G66b4 "result traffic light") |[![All](http://img.youtube.com/vi/IFOKcFbpEMQ/0.jpg)](https://www.youtube.com/watch?v=IFOKcFbpEMQ "result-all4")|
+|![result-tf](result-tf.gif)| ![result-all](result-all.gif)|
+|[![TrafficLight](http://img.youtube.com/vi/lW7Dx4G66b4/0.jpg)](https://www.youtube.com/watch?v=lW7Dx4G66b4 "result traffic light") |[![All](http://img.youtube.com/vi/IFOKcFbpEMQ/0.jpg)](https://www.youtube.com/watch?v=IFOKcFbpEMQ "result all4")|
 
 Right below each bouding boxes, Classified Tag is added: (Person, Car, Traffic Light, Motorcycle , etc )
 
