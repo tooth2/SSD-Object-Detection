@@ -28,6 +28,12 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 <!--
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/E5Jg4Wm9b7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 --> 
+### Multi-Objects Detection Result
+| MultiObjects(Car, Pedestrian, TrafficLight, ] 
+|--|--|
+|![Driving](sample.gif) | ![Result](detection.gif)|
+
+Right below each bouding boxes, Classified Tag is added: (Person, Car, Traffic Light, Motorcycle , etc )
 
 ### trained model Download  
 * [SSD_Mobilenet v11.6.17](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz)
@@ -36,14 +42,16 @@ NOTE: In this lab the base network is a MobileNet (instead of VGG16.)
 
 ### Reference 
 * [MobileNets paper](https://arxiv.org/abs/1704.04861)
-* [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325)
+* [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) 
 * [Faster R-CNN paper](https://arxiv.org/abs/1506.01497)
 * [Speed/Accuracy trade-offs for modern convolutional object detectors](https://arxiv.org/abs/1611.10012)
 * [Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+* [CoCo Dataset](https://cocodataset.org/)
 * [Deep Lab](https://github.com/tensorflow/models/tree/master/research/deeplab)
 * [CityScapes DataSet](https://www.cityscapes-dataset.com/)
 * [MobileNet v2](https://arxiv.org/abs/1801.04381)
 * [MobileNet v3](https://arxiv.org/abs/1905.02244)
+* [DeepLab Model](https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md)
 
 ### Related Work
 - [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
